@@ -8,7 +8,6 @@
     width: 100%;
     display: block;
     background-size: cover;
-    height: 100%;
     padding-top: 226px;
  }
  .big-img h1 {
@@ -152,4 +151,69 @@ footer {
 .icon-contact {
     margin-top: 20px;
     margin-left: 16px;
+}
+.btn-menu {
+    padding: 10px 16px;
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    color: white;
+    background-color: #00000066;
+    font-size: 17px;
+}
+.btn-menu:hover {
+    background-color: #404041;
+}
+.move-left {
+    right:0px;
+}
+nav {
+    position: fixed;
+    background-color: #000000;
+    top: 0px;
+    right: -250px;
+    color: #999999;
+    width: 250px;
+    height: 100%;
+    z-index: 2;
+    transition: all 0.5s;
+}
+
+
+ul.menu {
+    list-style-type: none;
+}
+
+
+.menu li a {
+    color: #999999;
+    display: block;
+    width: 250px;
+    height: 40px;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-top: 9px;
+}
+
+.menu li a:hover {
+    background: #4E4E4E;
+    color: white;
+}
+a.title-menu {color: #999999;padding-left: 13px;}
+
+a.title-menu:hover {
+    color: white;
+    text-decoration: none;
+}
+i.fa.fa-times.btn-cancel {
+    color: black;
+    background-color: white;
+    font-size: 17px;
+    padding: 15px 16px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+i.fa.fa-times.btn-cancel:hover {
+    background-color:#D3D3D3;
 }
